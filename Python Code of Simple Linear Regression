@@ -1,6 +1,7 @@
+``` python
 #Simple Linear Regression
 
-    "import matplotlib.pyplot as plt\n",
-    "import pandas as pd\n",
-    "import pylab as pl\n",
-    "import numpy as np\n",
+import matplotlib.pyplot as plt
+import pandas as pd
+import pylab as pl
+import numpy as np
