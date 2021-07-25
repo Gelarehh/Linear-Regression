@@ -1,4 +1,5 @@
-``` python
+```Python
+
 #Simple Linear Regression
 
 import matplotlib.pyplot as plt
