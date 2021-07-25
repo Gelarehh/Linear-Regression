@@ -7,6 +7,6 @@ The regression model maps a line to the relationship between independent and dep
 
 
 
-<img style="text-align:center" src="https://user-images.githubusercontent.com/66460485/126896094-79f345a1-a6b8-4e6d-b7a9-9d71e1d6522f.png" width="400" height="300" />
+<img align="center" src="https://user-images.githubusercontent.com/66460485/126896094-79f345a1-a6b8-4e6d-b7a9-9d71e1d6522f.png" width="400" height="300" />
 
 
