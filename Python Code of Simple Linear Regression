@@ -1,7 +1,4 @@
 ```Python
-
-#Simple Linear Regression
-
 import matplotlib.pyplot as plt
 import pandas as pd
 import pylab as pl
