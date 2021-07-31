@@ -1,23 +1,21 @@
 ```Python
 
 #Importing Needed packages
-
 import matplotlib.pyplot as plt
 import pandas as pd
 import pylab as pl
 import numpy as np
 
 #Downloading Data
-
-df = pd.read_csv('climdiv_national_year.csv')
+df = pd.read_csv('https://query.data.world/s/fwejs72gekxmyoyvcd2vxdshb3mn3s')
 cdf = df[['year','temp','tempc']]
-cdf.head(9)
+cdf.head(10)
 
 
 #Plotting Features
 plt.scatter(cdf.year, cdf.tempc,  color='blue')
-plt.xlabel(\"Year\")
-plt.ylabel(\"Temperature\")
+plt.xlabel("Year")
+plt.ylabel("The average annual temperature in Celsius")
 plt.show()
 
 #Train and Test Separation
@@ -28,9 +26,9 @@ test = cdf[~msk]
 #Modeling
 from sklearn import linear_model
 regr = linear_model.LinearRegression()
-"train_x = np.asanyarray(train[['year']])
-"train_y = np.asanyarray(train[['tempc']])
-"regr.fit (train_x, train_y)
+train_x = np.asanyarray(train[['year']])
+train_y = np.asanyarray(train[['tempc']])
+regr.fit (train_x, train_y)
 
 #The coefficients
 print ('Coefficients: ', regr.coef_)
@@ -40,12 +38,11 @@ print ('Intercept: ',regr.intercept_)
 #Plot Output
 plt.scatter(train.year, train.tempc,  color='blue')
 plt.plot(train_x, regr.coef_[0][0]*train_x + regr.intercept_[0], '-r')
-plt.xlabel(\"Year\")
-plt.ylabel(\"Temperature\")
+plt.xlabel("Year")
+plt.ylabel("The average annual temperature in Celsius")
 
 #Evaluation
 from sklearn.metrics import r2_score
-
 test_x = np.asanyarray(test[['year']])
 test_y = np.asanyarray(test[['tempc']])
 test_y_ = regr.predict(test_x)
