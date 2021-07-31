@@ -9,7 +9,7 @@ import numpy as np
 
 #Downloading Data
 
-df = pd.read_csv('https://query.data.world/s/tzdk3gmkb7q4jlyau6if77qk4tbkdb')
+df = pd.read_csv('climdiv_national_year.csv')
 cdf = df[['year','temp','tempc']]
 cdf.head(9)
 
