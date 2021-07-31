@@ -15,7 +15,7 @@ cdf.head(9)
 
 
 #Plotting Features
-plt.scatter(cdf.tempc, cdf.year,  color='blue')
+plt.scatter(cdf.year, cdf.tempc,  color='blue')
 plt.xlabel(\"Year\")
 plt.ylabel(\"Temperature\")
 plt.show()
