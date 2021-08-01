@@ -9,3 +9,4 @@ The regression model maps a line to the relationship between independent and dep
 </p>
 
 The dataset used for the training and test simulations is the average annual temperature between 1895 and 2019 for the Lower 48 states of the United States.
+20% of the dataset is saved for testing, and the evaluation metric is the well-known mean square method. 
