@@ -8,5 +8,6 @@ The regression model maps a line to the relationship between independent and dep
   <img width="400" height="280" src="https://user-images.githubusercontent.com/66460485/126896094-79f345a1-a6b8-4e6d-b7a9-9d71e1d6522f.png">
 </p>
 
+<br/><br/>
 The dataset used for the training and test simulations is the average annual temperature between 1895 and 2019 for the Lower 48 states of the United States.
 20% of the dataset is saved for testing, and the evaluation metric is the well-known mean square error (MSE). 
