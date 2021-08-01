@@ -3,7 +3,7 @@
 The regression model maps a line to the relationship between independent and dependent variables. When only one set of independent variables are correlated to dependent variables, the model is simple. When the relationship between them is linear, the regression model is Linear as well. So that's a **Simple Linear Regression** model.
 
 
-The dataset being used here is the average annual temperature between 1895 and 2019 for the Lower 48 states of the United States.
+The dataset being used for the training and test simulations is the average annual temperature between 1895 and 2019 for the Lower 48 states of the United States.
 <br/><br/>
 
 <p align="center">
