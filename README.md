@@ -1,4 +1,4 @@
-### Linear-Regression
+# Linear-Regression
 
 # Simple-Linear-Regression
 
